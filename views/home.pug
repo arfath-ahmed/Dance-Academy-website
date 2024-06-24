@@ -1,0 +1,43 @@
+extends base.pug
+
+block style 
+  style
+    include ../static/style.css
+block content
+  
+  section#introSection 
+    div Welcome to Harry's Dance Academy.
+    div.small EAT SLEEP DANCE REPEAT!
+    button.btn#btn #[a(href ="/contact") Start Dancing!]
+  section#missionSection 
+    h2 #[u OUR OFFERINGS]
+      h3 #[u Learn from India's best choreographers]
+      div.card#card1
+        h3.heading Start from scratch
+        div.cardcontent
+          div.content
+            p Specially designed for Freshers. Appliacble for even those who have never danced before. You will be able to learn all the basics required to be a unbeatable dancer.
+      div.card#card2
+        h3.heading Intermediate level
+        div.cardcontent
+          div.content
+            p Specially designed for Freshers. Appliacble for even those who have never danced before. You will be able to learn all the basics required to be a unbeatable dancer.
+      div.card#card3
+        h3.heading Advance level classes
+        div.cardcontent
+          div.content
+            p Specially designed for Freshers. Appliacble for even those who have never danced before. You will be able to learn all the basics required to be a unbeatable dancer.
+      div.card#card4
+        h3.heading Dance Perfection
+        div.cardcontent
+          div.content
+            p Specially designed for Freshers. Appliacble for even those who have never danced before. You will be able to learn all the basics required to be a unbeatable dancer.
+  section#sponsorsSection 
+    h2.head OUR SPONSORS 
+      div.up 
+        img(src='/static/spon1.png' alt="image")
+        img(src='/static/spon2.png' alt="image2")
+        img(src='/static/spon3.png' alt="image3")
+      div.down 
+        img(src='/static/spon4.png' alt="image4")
+        img(src='/static/spon5.png' alt="image5")
